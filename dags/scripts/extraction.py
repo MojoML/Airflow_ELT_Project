@@ -61,5 +61,5 @@ def ingest_data_to_s3(dataset_url:str, export_file_location:str):
         print("---------------------")
         print(f"Error:{e}")
 
-
-ingest_data_to_s3("https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2019-01.csv",path_to_extraction_file )
+if __name__ == "__main__":
+    ingest_data_to_s3("https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2019-01.csv",path_to_extraction_file )
