@@ -39,4 +39,4 @@ All above mentioned tasks are orchestrated with Airflow.
 4. run `docker-compose up` to spin up all containers
 5. Access the Airflow UI at localhost:8080
 6. In the UI configure an S3 Connection
-7. Run the DAg and let it do its magic :)
+7. Run the DAG and let it do its magic :)
